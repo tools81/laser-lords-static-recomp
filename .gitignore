@@ -1,0 +1,19 @@
+# disc image and data extracted from it
+rom/
+extracted/
+# build output
+build/
+run/
+*.exe
+saves/
+*.log
+cmp/
+# release packages (tools/package.ps1)
+dist/
+__pycache__/
+# per-install settings (rom location, update_check)
+laserlords.ini
+# generated test inputs (tools/gen_tests.py, test/gen_alu_vectors.py)
+test/insn_tests.c
+test/alu_vectors.h
+test/bcd_vectors.h

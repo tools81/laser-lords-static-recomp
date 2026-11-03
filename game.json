@@ -1,0 +1,13 @@
+{
+  "title": "Laser Lords",
+  "exe_name": "laserlords",
+  "update_repo": "tools81/laser-lords-static-recomp",
+  "modules": [
+    {"file": "auto", "base": "0xC0000", "extra_entries": [], "a5_table": "auto"},
+    {"file": "cdi_tribes", "base": "0xC6000", "extra_entries": [], "a5_table": "auto"},
+    {"file": "cdi_space", "base": "0xE8000", "extra_entries": [], "a5_table": "auto"},
+    {"file": "cdi_nvrui", "base": "0xF2000", "extra_entries": [], "a5_table": "auto"},
+    {"file": "cdi_bumperanim", "base": "0xFE000", "extra_entries": [], "a5_table": "auto"}
+  ],
+  "hooks": {"0xDBD0C": "hook_player_damage"}
+}
